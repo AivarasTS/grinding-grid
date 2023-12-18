@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(140, 143, 1);
+}
+
+.orange {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.boxone {
+  padding: 50px;
+  height: 250px;
+  width: 250px;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.boxtwo {
+  margin-left: 25px;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  width: 420px;
+  height: 55px;
+  background-color: orangered;
+  border-radius: 3px;
+}
+
+.bottomleft {
+  margin-top: 23px;
+  margin-left: 25px;
+  padding: 77px;
+  color: white;
+  width: 90px;
+  background-color: orangered;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.bottomright {
+  margin-top: 23px;
+  padding: 77px;
+  background-color: orangered;
+  width: 96px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+}
+
+.twoo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Below is a grid type blocks */
+
+.container {
+  display: grid;
+  margin-left: 10px;
+  margin-top: 10px;
+  column-gap: 26px;
+  row-gap: 25px;
+  grid-template-columns: 349px 243px 250px;
+  grid-template-rows: 175px 175px;
+}
+
+.one {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.two {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.three {
+  background-color: aqua;
+  grid-column-start: 2;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.four {
+  background-color: aqua;
+  text-align: center;
+  border-radius: 3px;
+}
